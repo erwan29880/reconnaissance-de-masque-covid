@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  streamlit:
+    container_name: streamlit_detec
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    volumes:
+      - ./data:/app
+    ports:
+      - 8888:8080
+    devices:
+      - "/dev/video0:/dev/video0"
+    mem_limit: 10000m
+    
