@@ -24,7 +24,7 @@ L'application va tout d'abord détecter les visages ; quand les visages sont mas
 
 L'application va ensuite isoler les visages et les mettre à la bonne dimension afin d'utiliser un modèle d'IA créé lors d'un exercice précédent*, et effectuer les prédictions afin de déterminer s'il y a un masque ou non.
 
-Le fichier d'IA, sous forme .h5 (tensorflow), n'est pas disponible sur github (1.5GB). Je le mets à disposition <a href="http://erwan-diato.com/mod2.h5">ici</a>
+Le fichier d'IA, sous forme .h5 (tensorflow), n'est pas disponible sur github (1.5GB). Je le mets à disposition <a href="http://erwan-diato.com/mod2.h5">ici</a> (<i>note : chrome bloque le téléchargement</i>)
 
 
 
